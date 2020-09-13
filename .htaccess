@@ -1,3 +1,4 @@
+#Just removes the .php extension on the files so I'm able to keep the url bar as smooth as possible.
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.php [NC,L]
